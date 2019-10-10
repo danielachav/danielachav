@@ -7,25 +7,43 @@
 body {
     background-image: url(./assets/images/codepic.jpg);
     background-size: cover;
+    overflow: scroll;
 }
 
 .heading {
     background: rgba(255, 255, 255, 0.6);
     justify-content: space-evenly;
-    position: static;
+    width: 100%;
 }
 
 h1 {
-    font-size: 60px;
-    color: rgb(44, 43, 43);
+    font-size: 50px;
+    font-family: 'Poiret One', cursive;
+    color: rgb(45, 46, 44);
     text-align: left;
     margin-top: -8.5px;
     margin-left: 0;
     margin-right:10%;
+    margin-bottom: 2px;
     padding: 15px;
+    padding-bottom: 2px;
 }
 
-#nav ul {
+h3 {
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(44, 43, 43);
+    text-align: left;
+    margin-left: 0;
+    margin-right:10%;
+    margin-top: 2px;
+    padding: 15px;
+    padding-top: 1px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+}
+
+/*#nav ul {
     width: 180px;
     display: flex;
     justify-content: flex-end;
@@ -36,9 +54,9 @@ h1 {
     margin: 10px 15px;
     color: rgb(44, 43, 43);
 }
+*/
 
-
-.container {
+.container-image {
     background: rgba(255, 255, 255, 0.6);
     display: flex;
     justify-content: center;
@@ -47,4 +65,9 @@ h1 {
     padding-left: 50px;
     padding-right: 50px;
     height: 450px;
+    overflow: scroll;
+}
+
+.container-info {
+
 }
