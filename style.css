@@ -1,0 +1,50 @@
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+body {
+    background-image: url(./assets/images/codepic.jpg);
+    background-size: cover;
+}
+
+.heading {
+    background: rgba(255, 255, 255, 0.6);
+    justify-content: space-evenly;
+    position: static;
+}
+
+h1 {
+    font-size: 60px;
+    color: rgb(44, 43, 43);
+    text-align: left;
+    margin-top: -8.5px;
+    margin-left: 0;
+    margin-right:10%;
+    padding: 15px;
+}
+
+#nav ul {
+    width: 180px;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(44, 43, 43);
+}
+#nav li {
+    list-style-type: none;
+    margin: 10px 15px;
+    color: rgb(44, 43, 43);
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 450px;
+}
