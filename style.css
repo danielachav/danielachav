@@ -24,6 +24,7 @@ h1 {
     margin-top: -8.5px;
     margin-left: 0;
     margin-right:2%;
+    max-width: 50%;
 } 
 
 h3 {
@@ -32,6 +33,7 @@ h3 {
     color: rgb(44, 43, 43);
     text-align: left;
     justify-content: flex-start;
+    max-width: 50%;
 }  
 
 .main-container{
@@ -39,28 +41,46 @@ h3 {
     display: flex;
     justify-content: center;
     margin-top: 25px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding-left: 50px;
     padding-right: 50px;
     height: 380px;
     overflow: scroll;
 }
 
-p {
-    text-align: right;
+.column-one {
+  box-sizing: border-box;
+  float: left;
+  width: 80%;
+  padding: 2px;
+  height: 300px;
 }
 
-img {
+.column-two {
+  box-sizing: border-box;
+  float: right;
+  width: 80%;
+  padding: 2px;
+  height: 300px;
+}
 
+.img-fluid {
+  width: 2900px;
+  height: 300px;
+}
+
+p {
+    text-align: center;
+    font-size: 11px;
 }
 
 .media-links {
     background-color: black;
     display: flex;
     justify-content: center;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 150px;
+    margin-right: 150px;
     padding-left: 50px;
     padding-right: 50px;
     height: 50px;
@@ -69,8 +89,8 @@ img {
 
 .fa {
     padding: 20px;
-    font-size: 15px;
-    width: 15px;
+    font-size: 25px;
+    width: 5px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -84,6 +104,8 @@ img {
 
   ::before {
       align-content: center;
+      align-items: flex-start;
+      height: 2%;
   }
   
   .fa-facebook {
