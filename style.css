@@ -26,11 +26,11 @@ a {
 
 
 h1 {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(85, 84, 84, 0.9);
     font-size: 90px;
     letter-spacing: .5cm;
     font-family: 'Poiret One', cursive;
-    color: black;
+    color: rgb(196, 192, 192);
     text-align: center;
     margin-bottom: 0;
     margin-left: 12%;
@@ -38,10 +38,10 @@ h1 {
 } 
 
 h3 {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(85, 84, 84, 0.9);
     font-size: 30px;
     font-family: 'Poiret One', cursive;
-    color: rgb(3, 3, 3);
+    color: rgb(196, 192, 192);
     text-align: center;
     margin-left: 12%;
     margin-right: 12%;
@@ -49,52 +49,52 @@ h3 {
 
 .container-about {
   background-color: lightgray;
-  width: 1224px;
+  width: 983px;
   height: 600px;
 }
 
-.main-container{
-    background: rgba(255, 255, 255, 0.6);
+
+.row-one {
+  max-width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  margin-left: 300px;
+  margin-right: 150px;
+  
+}
+
+/*.row-two {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+} */
+
+/*.row-three {
+    background-color: black;
     display: flex;
-    align-content: space-between;
+    justify-content: center;
     margin-left: 150px;
     margin-right: 150px;
     padding-left: 50px;
-    padding-top: 5px;
     padding-right: 50px;
-    height: 380px;
-    overflow: scroll;
-}
+    height: 50px;
+    
+}  */
 
-.row {
-  height: 380px;
-  width: 500px;
-}
-
-.column-one {
-  box-sizing: border-box;
-  float: left;
-  flex-direction: column;
-  width: 80%;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  height: 380px;
-}
-
-.column-two {
-  box-sizing: border-box;
-  float: right;
-  flex-direction: column;
-  justify-self: flex-end;
-  width: 80%;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  height: 380px;
+.col-sm-6 {
+  background-color: #125688;
+  
+  width: 600px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  margin-left: 0;
 }
 
 .img-fluid {
-  width: 2900px;
-  height: 300px;
+  background-color: #125688;
 }
 
 p {
@@ -102,6 +102,7 @@ p {
   text-align: center;
   font-size: 13px;
 }
+
 
 .media-links {
     background-color: black;
@@ -163,28 +164,46 @@ h2 {
 
 .container-resume {
   background-color: rgb(34, 34, 34);
-  width: 1224px;
+  width: 983px;
   height: 600px;
 }
 
-.row-two {
+.row-four {
   width: 600px;
   height: 600px;
-  margin-left: 250px;
+  margin-left: 150px;
   display: flex;
   justify-content: space-between;
   
 }
 
-.col-md{
-  background-color: #125688;
+.row-five {
+  width: 600px;
+  height: 600px;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-between;
   
 }
 
-
-#ed-text {
-  color: white;
+.col-md-8{
+  background-color: #125688;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-top: 25px;
+  margin-bottom: 15px;
 }
+
+h4 {
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  height: 50px;
+  margin-left: 35%;
+}
+
+
 
 #work-text {
   color: white;
