@@ -51,6 +51,8 @@ h3 {
   background-color: lightgray;
   width: 1224px;
   height: 600px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
@@ -166,6 +168,15 @@ h2 {
   background-color: rgb(34, 34, 34);
   width: 1224px;
   height: 600px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-resume {
+  background-color: aliceblue;
+  margin-top: 5%;
+  margin-left: 2%;
+ 
 }
 
 .row-two {
@@ -203,11 +214,10 @@ h4 {
   margin-left: 35%;
 }
 
-
-
 #work-text {
   color: white;
 }
+
 
 #background {
   background-image: url(./assets/images/codepic.jpg);
@@ -215,10 +225,35 @@ h4 {
 }
 
 .card {
-  background-color: rgba(160, 158, 158, 0.9);
+  background-color: rgba(216, 216, 216, 0.9);
   margin-top: 5%;
   justify-content: space-between;
   margin-left: 7.5%;
+}
+
+.container-work {
+  background-image: url(./assets/images/codelaptop.jpg);
+  background-size: cover;
+  width: 1224px;
+  height: 600px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.card-one {
+  background-color: rgba(216, 216, 216, 0.9);
+  margin-top: 8%;
+  justify-content: space-between;
+  margin-left: 7.5%;
+}
+
+
+.card-title {
+  text-align: center
+}
+
+.card-text {
+  text-align: center;
 }
 
 .card-img-top {
@@ -226,8 +261,13 @@ h4 {
   height: 200px;
 }
 
-.btn-primary {
-  justify-content: center;
+.btn-secondary {
+  margin-left: 60px;
+}
+
+.btn-dark{
+  background-color: rgb(20, 20, 20);
+  margin-left: 600px;
 }
 
 
