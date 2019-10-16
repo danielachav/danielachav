@@ -21,7 +21,7 @@ a {
   text-align: center;
   margin-left: auto;
   padding-top: 180px;
-  padding-bottom: 240px;
+  padding-bottom: 250px;
 }
 
 
@@ -49,7 +49,7 @@ h3 {
 
 .container-about {
   background-color: lightgray;
-  width: 983px;
+  width: 1224px;
   height: 600px;
 }
 
@@ -72,7 +72,7 @@ h3 {
   margin-right: 150px;
 } */
 
-/*.row-three {
+/*.media-links {
     background-color: black;
     display: flex;
     justify-content: center;
@@ -85,7 +85,7 @@ h3 {
 }  */
 
 .col-sm-6 {
-  background-color: #125688;
+  background-color: #837f82;
   
   width: 600px;
   margin-top: 25px;
@@ -164,11 +164,11 @@ h2 {
 
 .container-resume {
   background-color: rgb(34, 34, 34);
-  width: 983px;
+  width: 1224px;
   height: 600px;
 }
 
-.row-four {
+.row-two {
   width: 600px;
   height: 600px;
   margin-left: 150px;
@@ -177,7 +177,7 @@ h2 {
   
 }
 
-.row-five {
+.row-three {
   width: 600px;
   height: 600px;
   margin-left: 150px;
@@ -209,6 +209,42 @@ h4 {
   color: white;
 }
 
+#background {
+  background-image: url(./assets/images/codepic.jpg);
+  background-size: cover;
+}
+
+.card {
+  background-color: rgba(160, 158, 158, 0.9);
+  margin-top: 5%;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  width: 286px;
+  height: 200px;
+}
+
+.btn-primary {
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     background-color: rgba(255, 255, 255, 0.6);
@@ -223,6 +259,24 @@ h4 {
     font-family: 'Poiret One', cursive;
     color: rgb(20, 20, 20);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
