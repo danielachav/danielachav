@@ -198,10 +198,31 @@ h2 {
   padding-top: 50px;
 }
 
-.btn-dark-two{
+.btn-dark-two {
   background-color: rgb(20, 20, 20);
   color: white;
   margin-left: 100px;
+}
+
+.img-container {
+  margin-left: 27%;
+  margin-bottom: 5%;
+  margin-top: 5%
+}
+
+#resume-img {
+  width: 550px;
+  height: 600px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.btn-dark-three {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  margin-left: 45%;
+  margin-bottom: 10%;
 }
 
 /* START OF PORTFOLIO SECTION */
@@ -216,11 +237,12 @@ h2 {
 
 
 .card {
-  background-color: rgba(216, 216, 216, 0.692);
+  background-color: rgba(216, 216, 216, 0.932);
   box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 0.2), 0 6px 20px 0 rgba(228, 228, 228, 0.19);
-  margin-top: 5%;
+  margin-top: 2%;
   justify-content: space-between;
   margin-left: 7.5%;
+  margin-bottom: 5%;
 }
 
 .container-work {
@@ -256,6 +278,7 @@ h2 {
 
 .btn-secondary {
   margin-left: 60px;
+  background-color: #181818;
 }
 
 .btn-dark{
@@ -288,12 +311,11 @@ h2 {
   margin-bottom: 3%;
 }
 
-
 /* START OF CONTACT SECTION */
 
 .contact-container {
   width: 1224px;
-  height: 500px;
+  height: 400px;
   margin-bottom: 10px;
 }
 
