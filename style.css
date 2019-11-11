@@ -7,7 +7,7 @@
 }
 
 nav {
-  background-color: rgba(216, 211, 211, 0.979);
+  background-color: rgba(241, 241, 241, 0.979);
 }
 
 a {
@@ -32,7 +32,7 @@ a {
 
 
 h1 {
-    background-color: rgba(212, 212, 212, 0.9);
+    background-color: rgba(243, 243, 243, 0.9);
     font-size: 90px;
     letter-spacing: .5cm;
     font-family: 'Poiret One', cursive;
@@ -44,7 +44,7 @@ h1 {
 } 
 
 h3 {
-    background-color: rgba(212, 212, 212, 0.9);
+    background-color: rgba(243, 243, 243, 0.9);
     font-size: 30px;
     font-family: 'Poiret One', cursive;
     color: rgb(53, 53, 53);
@@ -59,25 +59,15 @@ h3 {
   background-color: rgb(255, 255, 255);
   background-size: cover;
   width: 1224px;
-  height: 700px;
+  height: 600px;
   margin-left: 0;
   margin-right: 0;
 }
 
-#welcome {
-  text-align: center;
-  width: 150px;
-  height: 50px;
-}
-
-#welcome-text {
-  text-align: center;
-}
-
 #img-prof {
   width: 420px;
-  height: 400px;
-  padding-top: 55px;
+  height: 420px;
+  padding-top: 50px;
   padding-right: 0;
   padding-left: 0;
   
@@ -85,7 +75,7 @@ h3 {
 
 .card-about {
   background-color: rgb(255, 255, 255);
-  margin-top: 7%;
+  margin-top: 3px;
   margin-left: 0;
   padding-left: 0;
 }
@@ -108,6 +98,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
   margin-bottom: 0;
+  margin-top: 3px;
   font-size: 12px;
   line-height: 0.5cm;
 }
@@ -216,6 +207,7 @@ h2 {
   margin-top: 20px;
   margin-bottom: 5px;
   margin-left: 10px;
+  border-radius: 20px 20px;
 }
 
 .btn-dark-three {
