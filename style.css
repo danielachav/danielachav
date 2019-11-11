@@ -134,18 +134,27 @@ p {
   
   .fa-facebook {
     color: rgb(22, 22, 22);
+    width: 50px;
+    height: 50px;
   }
   
-  .fa-google {
-    color: rgb(15, 15, 15);
-  }
   
   .fa-linkedin {
     color: rgb(15, 15, 15);
+    width: 50px;
+    height: 50px;
   }
   
   .fa-instagram {
     color: rgb(17, 17, 17);
+    width: 50px;
+    height: 50px;
+  }
+
+  .fa-github {
+    color: rgb(17, 17, 17);
+    width: 50px;
+    height: 50px;
   }
  
 
@@ -179,16 +188,20 @@ h2 {
   border-radius: 5px 5px 5px 5px;
 }
 
+.card-body {
+
+}
+
 #school-one {
   padding-top: 50px;
 }
 
 #school-two {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 #school-three {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .btn-dark-two {
