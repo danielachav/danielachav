@@ -7,7 +7,7 @@
 }
 
 nav {
-  background-color: rgba(202, 202, 202, 0.507);
+  background-color: rgba(216, 211, 211, 0.979);
 }
 
 a {
@@ -18,7 +18,7 @@ a {
 }
 
 .title {
-  background-image: url(./assets/images/codepic.jpg);
+  background-image: url(./assets/images/computercodebackground.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,11 +32,11 @@ a {
 
 
 h1 {
-    background-color: rgba(85, 84, 84, 0.9);
+    background-color: rgba(212, 212, 212, 0.9);
     font-size: 90px;
     letter-spacing: .5cm;
     font-family: 'Poiret One', cursive;
-    color: rgb(196, 192, 192);
+    color: rgb(53, 53, 53);
     text-align: center;
     margin-bottom: 0;
     margin-left: 12%;
@@ -44,10 +44,10 @@ h1 {
 } 
 
 h3 {
-    background-color: rgba(85, 84, 84, 0.9);
+    background-color: rgba(212, 212, 212, 0.9);
     font-size: 30px;
     font-family: 'Poiret One', cursive;
-    color: rgb(196, 192, 192);
+    color: rgb(53, 53, 53);
     text-align: center;
     margin-left: 12%;
     margin-right: 12%;
@@ -56,27 +56,30 @@ h3 {
 /* START OF ABOUT ME SECTION */
 
 .container-about {
-  background-color: rgba(73, 73, 73, 0.733);
+  background-color: rgb(255, 255, 255);
   background-size: cover;
   width: 1224px;
-  height: 600px;
+  height: 700px;
   margin-left: 0;
   margin-right: 0;
 }
 
 #img-prof {
-  width: 480px;
-  height: 435px;
+  width: 420px;
+  height: 400px;
+  padding-top: 55px;
+  padding-right: 0;
 }
 
 .card-about {
-  background-color: aliceblue;
-  margin-top: 3%;
+  background-color: rgb(255, 255, 255);
+  margin-top: 7%;
   margin-left: 0;
+  padding-left: 0;
 }
 
 .media-links {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -89,10 +92,18 @@ h3 {
 } 
 
 
+#myinfo {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 0.5cm;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 
@@ -118,19 +129,19 @@ p {
   }
   
   .fa-facebook {
-    color: white;
+    color: rgb(22, 22, 22);
   }
   
   .fa-google {
-    color: white;
+    color: rgb(15, 15, 15);
   }
   
   .fa-linkedin {
-    color: white;
+    color: rgb(15, 15, 15);
   }
   
   .fa-instagram {
-    color: white;
+    color: rgb(17, 17, 17);
   }
  
 
@@ -146,24 +157,45 @@ h2 {
 /* START OF RESUME SECTION */
 
 .container-resume {
-  background-color: rgb(34, 34, 34);
+  background-image: url(./assets/images/computercodebackground.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 1224px;
-  height: 600px;
+  height: 680px;
   margin-left: 0;
   margin-right: 0;
 }
 
 .card-resume {
-  background-color: aliceblue;
-  margin-top: 5%;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: 9%;
   margin-left: 2%;
 }
 
+#school-one {
+  padding-top: 50px;
+}
+
+#school-two {
+  padding-top: 50px;
+}
+
+#school-three {
+  padding-top: 50px;
+}
+
+.btn-dark-two{
+  background-color: rgb(20, 20, 20);
+  color: white;
+  margin-left: 100px;
+}
 
 /* START OF PORTFOLIO SECTION */
 
 #background {
-  background-image: url(./assets/images/codepic.jpg);
+  background-image: url(./assets/images/computercodebackground.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -172,7 +204,7 @@ h2 {
 
 
 .card {
-  background-color: rgba(216, 216, 216, 0.9);
+  background-color: rgba(216, 216, 216, 0.692);
   box-shadow: 0 4px 8px 0 rgba(112, 112, 112, 0.2), 0 6px 20px 0 rgba(228, 228, 228, 0.19);
   margin-top: 5%;
   justify-content: space-between;
@@ -180,13 +212,9 @@ h2 {
 }
 
 .container-work {
-  background-image: url(./assets/images/codelaptop.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  
   width: 1224px;
-  height: 600px;
+  height: 680px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -221,11 +249,38 @@ h2 {
   margin-left: 600px;
 }
 
+/* START OF SKILLS SECTION */
+
+.container-progress {
+  background-image: url(./assets/images/computercodebackground.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1224px;
+  height: 680px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#skills-container {
+  margin-top: 9%;
+  height: 400px;
+  
+}
+
+#skills-title {
+  margin-top: 1px;
+  margin-bottom: 3%;
+}
+
+
 /* START OF CONTACT SECTION */
 
 .contact-container {
   width: 1224px;
-  height: 600px;
+  height: 500px;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -268,20 +323,18 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 10px;
   margin-top: 40px;
+  margin-bottom: 30px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 
 
-
-
-
-
-/* FOOTER NOT INCLUDED IN MAIN PAGE */
+/* FOOTER INCLUDED IN MAIN PAGE */
 
 .footer {
     background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(20, 20, 20);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -291,7 +344,6 @@ input[type=submit]:hover {
     font-size: small;
     font-weight: bolder;
     font-family: 'Poiret One', cursive;
-    color: rgb(20, 20, 20);
 }
 
 
