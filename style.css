@@ -64,11 +64,23 @@ h3 {
   margin-right: 0;
 }
 
+#welcome {
+  text-align: center;
+  width: 150px;
+  height: 50px;
+}
+
+#welcome-text {
+  text-align: center;
+}
+
 #img-prof {
   width: 420px;
   height: 400px;
   padding-top: 55px;
   padding-right: 0;
+  padding-left: 0;
+  
 }
 
 .card-about {
@@ -220,7 +232,7 @@ h2 {
 }
 
 .card-one {
-  background-color: rgba(240, 240, 240, 0.692);
+  background-color: rgba(240, 240, 240, 0.842);
   color: rgb(0, 0, 0);
   margin-top: 8%;
   justify-content: space-between;
@@ -233,11 +245,13 @@ h2 {
 
 .card-text {
   text-align: center;
+  font-size: 15px;
+  padding-bottom: 8px;
 }
 
 .card-img-top {
-  width: 286px;
-  height: 200px;
+  width: 290px;
+  height: 220px;
 }
 
 .btn-secondary {
