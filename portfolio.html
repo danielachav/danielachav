@@ -16,7 +16,9 @@
 
     <!--Style Sheets-->
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" type="text/css" href="./portfolio.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    
 
     <!--Fonts Link-->
     <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap"
@@ -50,79 +52,147 @@
 
   <!--PORTFOLIO PAGE-->
 
-  <div class="row container-portfolio">
-
-  <div class="card" style="width: 18rem;">
-      <img class="card-img-top" src="assets/images/codecoffee.jpg" alt="codeandcoffee">
-      <div class="card-body">
-        <h5 class="card-title">Code&Coffee</h5>
-        <p class="card-text">An Online Collaborative Coding Community</p>
-        <p class="card-text">Built with HTML/CSS/JavaScript/Node.js/Express/Handlebars/API/mySQL</p>
-        <a href="https://codeandcoffee.herokuapp.com/" class="btn btn-secondary">Check It Out</a>
-      </div>
+  <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('webdesign')"> Web Apps/Design</button>
+      <button class="btn" onclick="filterSelection('videos')"> Videos</button>
+      <button class="btn" onclick="filterSelection('logodesign')">Logo Design</button>
+      <button class="btn" onclick="filterSelection('photography')">Photography</button>
     </div>
-
-
-    <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="assets/images/travelplanner.jpg" alt="travelplanner">
-        <div class="card-body">
-          <h5 class="card-title">Travel Planner</h5>
-          <p class="card-text">Travel Made Easy</p>
-          <p class="card-text">Built with HTML/CSS/JavaScript/jQuery/AJAX/API</p>
-          <a href="https://github.com/jtsai972/Group-Project-1" class="btn btn-secondary">Check It Out</a>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column webdesign">
+        <div class="content">
+          <img src="./assets/images/codecoffee.jpg" alt="webdesign" style="width:100%">
+          <h4>Code&Coffee</h4>
+          <p>Built with Node/Express/API/mySQL</p>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="assets/images/selfdefensedg.jpg" alt="selfdefensebydg">
-          <div class="card-body">
-            <h5 class="card-title">Self Defense by DG</h5>
-            <p class="card-text">Detective Gomez's line of security equipment</p>
-            <p class="card-text">E-Commerce site built with Shopify</p>
-            <a href="https://www.selfdefensebydg.com/" class="btn btn-secondary">Check It Out</a>
+      <div class="column webdesign">
+        <div class="content">
+          <img src="./assets/images/travelplanner.jpg" alt="webdesign" style="width:100%">
+          <h4>Travel Planner</h4>
+          <p>Built with HTML/CSS/JavaScript/jQuery/AJAX/API</p>
+        </div>
+      </div>
+      <div class="column webdesign">
+        <div class="content">
+          <img src="./assets/images/selfdefensedg.jpg" alt="webdesign" style="width:100%">
+          <h4>Self Defense by DG</h4>
+          <p>E-Commerce site built with Shopify</p>
+        </div>
+      </div>
+      <div class="column webdesign">
+          <div class="content">
+            <img src="./assets/images/hangmangame.jpg" alt="webdesign" style="width:100%">
+            <h4>HangMan</h4>
+            <p>Built with HTML/CSS/Javascript</p>
           </div>
         </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/images/beyondcheaters.jpg" alt="beyondcheaters">
-            <div class="card-body">
-              <h5 class="card-title">Beyond Cheaters</h5>
-              <p class="card-text">"Cheaters" Podcast</p>
-              <p class="card-text">Landing Page built on Wix</p>
-              <a href="https://www.beyondcheaters.com/" class="btn btn-secondary">Check It Out</a>
+        <div class="column webdesign">
+            <div class="content">
+              <img src="./assets/images/triviagame.jpg" alt="webdesign" style="width:100%">
+              <h4>Trivia Game</h4>
+              <p>Built with HTML/CSS/Javascript</p>
             </div>
           </div>
-
-      <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="assets/images/hangmangame.jpg" alt="hangman">
-          <div class="card-body">
-            <h5 class="card-title">HangMan</h5>
-            <p class="card-text">Guess the word based on a Classic Rock Band</p>
-            <p class="card-text">Built with HTML/CSS/JavaScript</p>
-            <a href="https://github.com/danielachav/Word-Guess-Game-HangMan" class="btn btn-secondary">Check It Out</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="assets/images/triviagame.jpg" alt="triviagame">
-            <div class="card-body">
-              <h5 class="card-title">Trivia Game</h5>
-              <p class="card-text">Online Game of Thrones Trivia</p>
-              <p class="card-text">Built with HTML/CSS/JavaScript</p>
-              <a href="https://github.com/danielachav/Trivia-Game" class="btn btn-secondary">Check It Out</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src="assets/images/crystalcollectorgame.jpg" alt="crystalcollectorgame">
-              <div class="card-body">
-                <h5 class="card-title">Crystal Collector</h5>
-                <p class="card-text">Online Game</p>
-                <p class="card-text">Built with HTML/CSS/JavaScript</p>
-                <a href="https://github.com/danielachav/unit-4-game" class="btn btn-secondary">Check It Out</a>
+          <div class="column webdesign">
+              <div class="content">
+                <img src="./assets/images/beyondcheaters.jpg" alt="webdesign" style="width:100%">
+                <h4>Crystal Collector</h4>
+                <p>Built with HTML/CSS/JavaScript</p>
               </div>
             </div>
-</div>
+    
+      <div class="column logodesign">
+        <div class="content">
+          <img src="./assets/images/crystalcollectorgame.jpg" alt="logodesign" style="width:100%">
+          <h4>Crystal Collector</h4>
+          <p>Built with HTML/CSS/JavaScript</p>
+        </div>
+      </div>
+      <div class="column logodesign">
+          <div class="content">
+            <img src="./assets/images/crystalcollectorgame.jpg" alt="logodesign" style="width:100%">
+            <h4>Crystal Collector</h4>
+            <p>Built with HTML/CSS/JavaScript</p>
+          </div>
+        </div>
+      <div class="column logodesign">
+        <div class="content">
+          <img src="/w3images/cars2.jpg" alt="logodesign" style="width:100%">
+          <h4>Beyond Cheaters</h4>
+          <p>Landing page built with Wix</p>
+        </div>
+      </div>
+      <div class="column videos">
+        <div class="content">
+          <img src="/w3images/cars3.jpg" alt="videos" style="width:100%">
+          <h4>Classic</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+    
+      <div class="column videos">
+        <div class="content">
+          <img src="/w3images/people1.jpg" alt="videos" style="width:100%">
+          <h4>Girl</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column videos">
+        <div class="content">
+          <img src="/w3images/people1.jpg" alt="videos" style="width:100%">
+          <h4>Girl</h4>
+          <p>Lorem ipsum dolor..</p>
+        </div>
+      </div>
+      <div class="column photography">
+          <div class="content">
+            <img src="./assets/images/salvador.jpg" alt="photography" style="width:100%">
+            <h4>Lake Coatepeque</h4>
+            <p>San Salvaor, El Salvador</p>
+          </div>
+        </div>
+      <div class="column photography">
+        <div class="content">
+          <img src="./assets/images/peru.jpeg" alt="photography" style="width:100%">
+          <h4>Mountains</h4>
+          <p>Cusco, Peru</p>
+        </div>
+      </div>
+      <div class="column photography">
+          <div class="content">
+            <img src="./assets/images/horse.jpeg" alt="photography" style="width:100%">
+            <h4>Mustang</h4>
+            <p>USA</p>
+          </div>
+        </div>
+      <div class="column photography">
+        <div class="content">
+          <img src="./assets/images/zermatt.jpeg" alt="photography" style="width:100%">
+          <h4>Matterhorn</h4>
+          <p>Zermatt, Switzerland</p>
+        </div>
+      </div>
+      <div class="column photography">
+          <div class="content">
+            <img src="./assets/images/munich.jpeg" alt="photography" style="width:100%">
+            <h4>Town Hall</h4>
+            <p>Munich, Germany</p>
+          </div>
+        </div>
+      <div class="column photography">
+        <div class="content">
+          <img src="./assets/images/vienna.jpeg" alt="photography" style="width:100%">
+          <h4>Rose Garden, Schonburn Palace</h4>
+          <p>Vienna, Austria</p>
+        </div>
+      </div>
+      
+    <!-- END GRID -->
+    </div>
 
 
 <!--FOOTER
@@ -133,7 +203,8 @@
 
 
        JavaScript -->
-      <script type="text/javascript" src="/scripts/extra.js"></script>
+      <script type="text/javascript" src="extra.js"></script>
+      <script type="text/javascript" src="portfolio.js"></script>  
 
 
     </body>
